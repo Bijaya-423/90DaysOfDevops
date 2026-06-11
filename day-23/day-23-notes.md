@@ -32,22 +32,6 @@ HEAD is the current position in git
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Task 2: Branching Commands — Hands-On
 In your `devops-git-practice` repo, perform the following:
 1. List all branches in your repo
@@ -59,4 +43,3 @@ In your `devops-git-practice` repo, perform the following:
 7. Switch back to `main` — verify that the commit from `feature-1` is not there
 8. Delete a branch you no longer need
 9. Add all branching commands to your `git-commands.md`
-
