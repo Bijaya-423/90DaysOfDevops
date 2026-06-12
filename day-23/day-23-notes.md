@@ -32,6 +32,7 @@ HEAD is the current position in git
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -179,3 +180,16 @@ you do not have write access.
 you want to contribute to an open source project.
 
 you want your own github copy of the project
+=======
+### Task 2: Branching Commands — Hands-On
+In your `devops-git-practice` repo, perform the following:
+1. List all branches in your repo
+2. Create a new branch called `feature-1`
+3. Switch to `feature-1`
+4. Create a new branch and switch to it in a single command — call it `feature-2`
+5. Try using `git switch` to move between branches — how is it different from `git checkout`?
+6. Make a commit on `feature-1` that does **not** exist on `main`
+7. Switch back to `main` — verify that the commit from `feature-1` is not there
+8. Delete a branch you no longer need
+9. Add all branching commands to your `git-commands.md`
+>>>>>>> 168f1bbbb2cf6f5c6217034681cfb79ff053c260
