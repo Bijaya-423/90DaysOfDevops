@@ -10,3 +10,7 @@
    - What is a merge conflict? (try creating one intentionally by editing the same line in both branches)
 
 i have write the something to commit in feature-login branch and push it and merge it
+
+
+
+this is the second line o =f the feature-login branch
