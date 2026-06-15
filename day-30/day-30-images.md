@@ -251,3 +251,60 @@ Storage Efficiency – Multiple containers can share the same image layers, savi
 Faster Downloads – Docker downloads only the layers that have changed instead of the entire image.
 Easy Versioning and Rollbacks – Layers are immutable, making it easy to track changes and revert to previous versions.
 Improved Portability – Layered images can be efficiently shared across different environments.
+
+
+### Task 3: Container Lifecycle
+Practice the full lifecycle on one container:
+1. **Create** a container (without starting it)
+=> docker create --name my-container nginx
+
+=> docker ps -a
+
+CONTAINER ID   IMAGE                  COMMAND                  CREATED          STATUS                      PORTS                                         NAMES
+a8f2565ed640   nginx                  "/docker-entrypoint.…"   11 seconds ago   Created                                                                   mycontainer
+
+2. **Start** the container
+
+=> docker start a8f2565ed640
+=> docker start mycontainer
+
+
+3. **Pause** it and check status
+=> docker pause mycontainer
+
+4. **Unpause** it
+
+=> docker unpause mycontainer
+
+
+5. **Stop** it
+
+docker stop mycontainer
+
+6. **Restart** it
+
+docker restart mycontainer
+
+
+7. **Kill** it
+
+docker kill 
+8. **Remove** it
+
+docker remove mycontainer
+
+
+Check `docker ps -a` after each step — observe the state changes.
+
+CONTAINER ID   IMAGE                  COMMAND                  CREATED          STATUS                        PORTS                                         NAMES
+a8f2565ed640   nginx                  "/docker-entrypoint.…"   5 minutes ago    Exited (137) 38 seconds ago                                                 mycontainer
+e220a512f880   6c112c1e6bc0           "/bin/sh -c 'javac H…"   44 minutes ago   Exited (2) 44 minutes ago                                                   modest_snyder
+262769750e45   todo-list              "/__cacert_entrypoin…"   46 minutes ago   Exited (1) 46 minutes ago                                                   inspiring_roentgen
+18d593e2040d   632a58b961c0           "/__cacert_entrypoin…"   50 minutes ago   Exited (1) 50 minutes ago                                                   sleepy_shamir
+32536eecfb9b   826a037d50f6           "/__cacert_entrypoin…"   50 minutes ago   Exited (1) 50 minutes ago                                                   strange_thompson
+87e2c908dfaf   826a037d50f6           "/__cacert_entrypoin…"   51 minutes ago   Exited (1) 51 minutes ago                                                   wizardly_vaughan
+f0e11309ad53   23f4a6fe1b28           "/bin/sh -c 'javac /…"   53 minutes ago   Exited (2) 53 minutes ago                                                   vigorous_blackwell
+06304573ef3f   5a6020bd1428           "/bin/sh -c 'javac s…"   54 minutes ago   Exited (2) 54 minutes ago                                                   inspiring_cori
+938f736b6990   5a6020bd1428           "/bin/sh -c 'javac T…"   55 minutes ago   Exited (2) 55 minutes ago                                                   lucid_allen
+889f472adc1e   devops-utilities-api   "python main.py"         2 hours ago      Exited (0) 8 minutes ago                                                    hungry_lovelace
+7e1eaa2a85f2   devops-utilities-api   "python main.py"         25 hours ago     Up 25 hours                   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp   peaceful_leakey
