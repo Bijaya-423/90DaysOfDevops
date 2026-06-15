@@ -189,3 +189,65 @@ docker rmi alpine
 
 
 
+### Task 2: Image Layers
+1. Run `docker image history nginx` — what do you see?
+
+ubuntu@ip-172-31-37-148:~$ docker image history nginx
+IMAGE          CREATED      CREATED BY                                      SIZE      COMMENT
+608a100c7165   4 days ago   CMD ["nginx" "-g" "daemon off;"]                0B        buildkit.dockerfile.v0
+<missing>      4 days ago   STOPSIGNAL SIGQUIT                              0B        buildkit.dockerfile.v0
+<missing>      4 days ago   EXPOSE map[80/tcp:{}]                           0B        buildkit.dockerfile.v0
+<missing>      4 days ago   ENTRYPOINT ["/docker-entrypoint.sh"]            0B        buildkit.dockerfile.v0
+<missing>      4 days ago   COPY 30-tune-worker-processes.sh /docker-ent…   16.4kB    buildkit.dockerfile.v0
+<missing>      4 days ago   COPY 20-envsubst-on-templates.sh /docker-ent…   12.3kB    buildkit.dockerfile.v0
+<missing>      4 days ago   COPY 15-local-resolvers.envsh /docker-entryp…   12.3kB    buildkit.dockerfile.v0
+<missing>      4 days ago   COPY 10-listen-on-ipv6-by-default.sh /docker…   12.3kB    buildkit.dockerfile.v0
+<missing>      4 days ago   COPY docker-entrypoint.sh / # buildkit          8.19kB    buildkit.dockerfile.v0
+<missing>      4 days ago   RUN /bin/sh -c set -x     && groupadd --syst…   87.1MB    buildkit.dockerfile.v0
+<missing>      4 days ago   ENV DYNPKG_RELEASE=1~trixie                     0B        buildkit.dockerfile.v0
+<missing>      4 days ago   ENV PKG_RELEASE=1~trixie                        0B        buildkit.dockerfile.v0
+<missing>      4 days ago   ENV ACME_VERSION=0.4.1                          0B        buildkit.dockerfile.v0
+<missing>      4 days ago   ENV NJS_RELEASE=1~trixie                        0B        buildkit.dockerfile.v0
+<missing>      4 days ago   ENV NJS_VERSION=0.9.9                           0B        buildkit.dockerfile.v0
+<missing>      4 days ago   ENV NGINX_VERSION=1.31.1                        0B        buildkit.dockerfile.v0
+<missing>      4 days ago   LABEL maintainer=NGINX Docker Maintainers <d…   0B        buildkit.dockerfile.v0
+<missing>      5 days ago   # debian.sh --arch 'amd64' out/ 'trixie' '@1…   87.4MB    debuerreotype 0.17
+
+
+2. Each line is a **layer**. Note how some layers show sizes and some show 0B
+
+Layer size > 0B 
+================
+-> These layer add , remove , or modify files
+
+- these create new filesystem data , so docker shown their size.
+
+
+Layer size with 0B
+================
+THese only add metadata or configuration.
+
+these do not create files , so they consume no additional storage.
+
+Docker Layer
+============
+A docker layer is made up multiple read only layers stacked on top of each other
+
+
+3. Write in your notes: What are layers and why does Docker use them?
+
+
+Docker images are built using multple read only layers stacked on the top of each other.
+
+each instruction in a docker file , such as FROM, RUN, COPY, ADD creates a new layer
+these layer tpgother from a complete docker images
+
+
+
+
+Why Docker Uses Layers
+Faster Builds – Docker reuses unchanged layers from the cache, reducing build time.
+Storage Efficiency – Multiple containers can share the same image layers, saving disk space.
+Faster Downloads – Docker downloads only the layers that have changed instead of the entire image.
+Easy Versioning and Rollbacks – Layers are immutable, making it easy to track changes and revert to previous versions.
+Improved Portability – Layered images can be efficiently shared across different environments.
