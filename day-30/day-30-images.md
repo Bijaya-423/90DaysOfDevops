@@ -355,6 +355,7 @@ docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' d8af
 => 172.17.0.3
 
 
+
 ### Task 5: Cleanup
 1. Stop all running containers in one command
 docker stop container_id
