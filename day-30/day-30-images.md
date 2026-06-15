@@ -315,3 +315,41 @@ f0e11309ad53   23f4a6fe1b28           "/bin/sh -c 'javac /…"   53 minutes ago 
 
 
 
+### Task 4: Working with Running Containers
+1. Run an Nginx container in detached mode
+docker run -d nginx
+docker exec -it d8afbb59dab6 bash
+
+2. View its **logs**
+
+docker logs d8afbb59dab6
+
+3. View **real-time logs** (follow mode)
+
+docker logs -f d8afbb59dab6
+docker logs -f mycontainer
+
+4. **Exec** into the container and look around the filesystem
+
+docker exec -it d8afbb59dab6 bash
+pwd - present working directory
+ls
+ls -la
+
+
+5. Run a single command inside the container without entering it
+
+=> docker exec d8afbb59dab6 hostname
+=> ubuntu@ip-172-31-37-148:~/Docker$ docker exec d8afbb59dab6 ls -la /usr/share/nginx/html
+total 16
+drwxr-xr-x 2 root root 4096 Jun 11 00:23 .
+drwxr-xr-x 3 root root 4096 Jun 11 00:23 ..
+-rw-r--r-- 1 root root  497 May 22 12:50 50x.html
+-rw-r--r-- 1 root root  896 May 22 12:50 index.html
+
+6. **Inspect** the container — find its IP address, port mappings, and mounts
+
+
+docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' d8afbb59dab6
+
+=> 172.17.0.3
