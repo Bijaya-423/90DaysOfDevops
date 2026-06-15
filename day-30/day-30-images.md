@@ -353,3 +353,25 @@ drwxr-xr-x 3 root root 4096 Jun 11 00:23 ..
 docker inspect -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}' d8afbb59dab6
 
 => 172.17.0.3
+
+
+### Task 5: Cleanup
+1. Stop all running containers in one command
+docker stop container_id
+
+2. Remove all stopped containers in one command
+docker rm container_id
+
+3. Remove unused images
+docker rmi image_id
+
+4. Check how much disk space Docker is using
+
+docker system df
+===============
+ubuntu@ip-172-31-37-148:~/Docker$ docker system df
+TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE
+Images          9         8         2.535GB   2.102GB (82%)
+Containers      12        2         3.015MB   1.565MB (51%)
+Local Volumes   0         0         0B        0B
+Build Cache     0         0         0B        0B
