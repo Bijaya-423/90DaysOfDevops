@@ -182,3 +182,7 @@ docker inspect alpine
 
 
 
+docker rmi nginx
+docker rmi ubuntu
+docker rmi alpine
+
