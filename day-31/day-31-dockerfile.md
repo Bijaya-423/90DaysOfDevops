@@ -10,3 +10,23 @@
 **Verify:** The message prints on `docker run`
 
 
+FROM ubuntu:latest
+
+RUN apt-get update && \
+    apt-get install -y curl && \
+    apt-get clean
+
+CMD ["echo", "Hello from my custom image!"]
+
+
+docker build -t my-ubuntu:v1 .
+
+docker run my-ubuntu:v1
+
+docker images
+
+docker inspect my-ubuntu:v1
+
+docker logs 00ebbbe545dc
+
+
