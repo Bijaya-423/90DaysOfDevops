@@ -30,3 +30,25 @@ docker inspect my-ubuntu:v1
 docker logs 00ebbbe545dc
 
 
+### Task 2: Dockerfile Instructions
+Create a new Dockerfile that uses **all** of these instructions:
+- `FROM` — base image
+- `RUN` — execute commands during build
+- `COPY` — copy files from host to image
+- `WORKDIR` — set working directory
+- `EXPOSE` — document the port
+- `CMD` — default command
+
+Build and run it. Understand what each line does.
+=============================================
+FROM python:3.14
+
+WORKDIR /app
+
+COPY requirements.txt .
+
+RUN pip install  -r requirements.txt
+
+COPY . .
+
+CMD ["python", "qrGenerator.py"]
