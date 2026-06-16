@@ -72,3 +72,7 @@ CMD ["python", "qrGenerator.py"]
 
 
 
+
+
+
+
