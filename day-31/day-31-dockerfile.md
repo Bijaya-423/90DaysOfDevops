@@ -54,3 +54,5 @@ COPY . .
 CMD ["python", "qrGenerator.py"]
 
 
+
+
