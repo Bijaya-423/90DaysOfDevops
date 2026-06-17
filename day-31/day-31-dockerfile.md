@@ -104,11 +104,40 @@ best for single -purpose containers
 ENTRYPOINT ["nginx"]
 
 
+### Task 4: Build a Simple Web App Image
+1. Create a small static HTML file (`index.html`) with any content
+2. Write a Dockerfile that:
+   - Uses `nginx:alpine` as base
+   - Copies your `index.html` to the Nginx web directory
+3. Build and tag it `my-website:v1`
+4. Run it with port mapping and access it in your browser
 
 
 
 
 
+
+
+create a index.html and write the html static page code
+
+then write the Dockerfile.nginx
+
+
+FROM nginx:alpine
+
+COPY index.html /usr/share/nginx/html/
+
+EXPOSE 80
+
+
+then
+docker build -f Dockerfile.nginx -t my-website .
+docker run -d -p 8001:80 --name website-container my-website
+
+docker ps
+docker images
+docker logs my-website
+docker inspect my-website
 
 
 
