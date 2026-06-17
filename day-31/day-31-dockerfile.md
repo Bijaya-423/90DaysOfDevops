@@ -148,6 +148,78 @@ docker inspect my-website
 
 ---
 
+project_chat_application/
+├── client/
+│   ├── Dockerfile
+│   ├── package.json
+│   └── src/
+│
+├── server/
+│   ├── Dockerfile
+│   ├── package.json
+│   └── index.js
+│
+└── docker-compose.yml
+
+
+create the server Dockerfile
+============================
+FROM node:22-alpine
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 5000
+
+CMD ["npm", "start"]
+
+
+docker build -t chat-server:v1 .
+docker run -d --name chat-server -p 5000:5000 chat-server:v1
+docker ps
+docker logs chat-server
+docker inspect chat-server
+
+
+create client Dockerfile
+========================
+FROM node:14-alpine
+
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
+
+docker build -t chat-client:v1 .
+docker run -d --name chat-client -p 3000:3000 chat-client:v1
+docker logs chat-client
+docker inspect chat-client
+
+
+.dockerignore
+=============.git
+.github
+.netlify
+node_modules
+client/node_modules
+server/node_modules
+.gitignore
+README.md
+
+
+
 ### Task 6: Build Optimization
 1. Build an image, then change one line and rebuild — notice how Docker uses **cache**
 2. Reorder your Dockerfile so that frequently changing lines come **last**
