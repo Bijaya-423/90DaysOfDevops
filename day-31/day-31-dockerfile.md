@@ -141,6 +141,25 @@ docker inspect my-website
 
 
 
+### Task 5: .dockerignore
+1. Create a `.dockerignore` file in one of your project folders
+2. Add entries for: `node_modules`, `.git`, `*.md`, `.env`
+3. Build the image — verify that ignored files are not included
+
+---
+
+### Task 6: Build Optimization
+1. Build an image, then change one line and rebuild — notice how Docker uses **cache**
+2. Reorder your Dockerfile so that frequently changing lines come **last**
+3. Write in your notes: Why does layer order matter for build speed?
+
+
+
+
+
+
+
+
 
 
 
