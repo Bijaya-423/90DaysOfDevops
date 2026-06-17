@@ -57,8 +57,51 @@ CMD ["python", "qrGenerator.py"]
 
 
 
+### Task 3: CMD vs ENTRYPOINT
+1. Create an image with `CMD ["echo", "hello"]` — run it, then run it with a custom command. What happens?
+
+FROM ubuntu:latest
+
+CMD ["echo", "Hello"]
 
 
+docker build -t cmd-demo .
+docer run cmd-demo
+docker ps
+docker inspect cmd-demo
+
+
+2. Create an image with `ENTRYPOINT ["echo"]` — run it, then run it with additional arguments. What happens?
+
+
+FROM ubuntu:latest
+
+ENTRYPOINT ["echo"]
+
+docker build -f Dockerfile.entrypoint -t entrypoint-demo .
+docker run entrypoint-demo
+docker ps
+docker inspect entrypoint-demo
+
+
+3. Write in your notes: When would you use CMD vs ENTRYPOINT?
+
+CMD
+===
+provides a default command
+can be overridden at run time
+flexible for different command
+
+CMD ["python"m "app.py"]
+
+
+ENTRYPOINT
+==========
+provides a fixed executable
+arguments are appended to it
+best for single -purpose containers
+
+ENTRYPOINT ["nginx"]
 
 
 
