@@ -226,16 +226,3 @@ README.md
 3. Write in your notes: Why does layer order matter for build speed?
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
