@@ -14,6 +14,9 @@ Containers are ephemeral — they lose data when removed. And by default, contai
 ---
 
 
+
+
+
 ## Challenge Tasks
 
 ### Task 1: The Problem
