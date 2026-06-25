@@ -38,6 +38,7 @@ You'll learn how to **undo mistakes** safely — one of the most important skill
 
 ---
 
+
 ### Task 3: Reset vs Revert — Summary
 Create a comparison in your notes:
 
@@ -100,3 +101,5 @@ Share your Reset vs Revert comparison or your branching strategy notes on Linked
 
 Happy Learning!
 **TrainWithShubham**
+
+
