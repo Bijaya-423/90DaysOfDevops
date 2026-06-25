@@ -21,3 +21,13 @@ commit B
 
 
 commit C
+
+1. Make 3 commits (commit X, Y, Z)
+2. Revert commit Y (the middle one) — what happens?
+3. Check `git log` — is commit Y still in the history?
+4. Answer in your notes:
+   - How is `git revert` different from `git reset`?
+   - Why is revert considered **safer** than reset for shared branches?
+   - When would you use revert vs reset?
+
+---
