@@ -31,3 +31,26 @@ commit C
    - When would you use revert vs reset?
 
 ---
+
+
+git reset
+=========
+moves the current branch (Head) to a previous commit . can remove commits and optionally kepp ot discard changes.
+
+remove commit from history
+
+it is not safe for shared and pushed branch avoid using it on push /shared branches becauses it rewrite history.
+
+wheen you want tpo undo local commits that haven't been pushed yet or clean up commit history
+
+git revert
+==========
+create a new commit that reverses the changes made by a previous commit.
+
+it not remove commit from history 
+
+it is safe for share and pushed branch. is preserved history and safely undoes changes.
+
+when you need to undo changes in a share repository of after commits have already been pushed.
+
+
