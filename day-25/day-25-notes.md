@@ -120,4 +120,34 @@ git diff - working directory and staged
 
 git diff --staged 
  
- 
+
+git branch 
+git bracch feature
+git switch feature
+git checkout feature
+git checkout -b login
+git branch -d feature
+git branch -D feature
+
+git remote -v
+git remote add origin <url>
+git clone <repo url>
+
+git fetch branch
+git pull origin main
+git push origin main
+git push origin -u origin main
+git clone <url>
+
+
+git merge feature
+git merge --abort
+
+
+git rebase main
+git rebase --continue
+git rebase --abort
+
+git stach
+git stach list
+git stach apply
