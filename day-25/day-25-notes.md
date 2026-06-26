@@ -93,3 +93,31 @@ many branches
 more merge conflict
 slower development
 not idea; for ci/cd pipelines
+
+
+
+task 5
+======
+git --version -> setup and configuration
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+
+git config --list -> view configuration
+git config user.name --> check specific config
+git config user.email --> check specific config
+
+git inti - to initialise empty git repo
+git status - to check the status 
+git add filename -to add everty thinf
+git commit -m "message" - git commit track to stage
+git commit -am "update file"
+
+git log --oneline - to show the log in oneline
+git log - details log
+git log --oneline --graph --all - graph log
+
+git diff - working directory and staged
+
+git diff --staged 
+ 
+ 
