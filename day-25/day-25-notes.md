@@ -61,5 +61,35 @@ when you need to undo changes in a share repository of after commits have alread
 
 
 
+task 5
+=======
+git flow use multiple long lived branches
+
+main -> production ready code
+develop - integrate branch
+feature/* - new features
+release/* - prepare releases
+hotfix/* - emergency production fixes
 
 
+
+
+used for
+========
+- large enterprises project
+- teams with scheduled releases
+- traditional software developement
+
+pros
+====
+clear workflow
+stable production branch
+supports planning
+easy hotfix management
+
+cons
+====
+many branches
+more merge conflict
+slower development
+not idea; for ci/cd pipelines
