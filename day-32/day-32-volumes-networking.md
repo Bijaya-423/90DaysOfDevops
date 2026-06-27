@@ -35,3 +35,17 @@ INSERT INTO users (name, email) VALUES
 docker ps
 
 then run new one  postgres container check table and data not exists
+
+task - 4
+==========
+
+No, They can not . containers om the default bridge network can onlhy communicate with each other using the ip address , not their container names , automatic dns resolutions is disabled on the default bridge for security and isolation reasons
+
+
+to allow containers to ping and comminicate with each other by name , you must use a user defined bridge network.
+
+
+docker network create my_custom_network
+
+yes they can .containers on the default bridge network can ping each other by ip address by default .docker does not block direct ip to ip communicate between containers on the same network unless you explicitely configyre it to do so.
+
