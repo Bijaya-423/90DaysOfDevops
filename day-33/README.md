@@ -36,6 +36,7 @@ Write a `docker-compose.yml` that runs:
 - A **MySQL** container
 
 They should:
+
 - Be on the same network (Compose does this automatically)
 - MySQL should have a named volume for data persistence
 - WordPress should connect to MySQL using the service name
