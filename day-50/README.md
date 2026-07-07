@@ -98,6 +98,7 @@ kubectl get nodes
 **Option B: minikube**
 ```bash
 # Install minikube
+
 # macOS
 brew install minikube
 
