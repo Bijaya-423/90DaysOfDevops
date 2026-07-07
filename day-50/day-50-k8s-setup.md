@@ -114,11 +114,18 @@ x- api server updates etcd with the current state.
 -> controllers and schudeler cannot coordinate changes.
 -> existing pods continue running on worker nodes.
 -> if configuredd with multiple api server (high availability), another api server can continue serving request.
- 
+
 
 
 
 - What happens if a worker node goes down?
+===========================================
+-> kubelet stops sending heartbets.
+-> controller manager detects the node is unavailable.
+-> pods on that node become unavailable.
+-> controller manager schudelers replacement pods on healthy worker nodes(if managed by a deployment or repicaset).
+-> traffic is redirecred to the healthy pos throught services and kube-proxy
+-users expericnce little or no downtiume if replicated are available.
 
 
 
