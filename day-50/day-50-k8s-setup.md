@@ -107,6 +107,17 @@ ix- kubelet reports the pods status
 x- api server updates etcd with the current state.
 
 - What happens if the API server goes down?
+===========================================
+-> kubectl commands stop working.
+-> no new pods can be created.
+-> no updated or scalling operationss can occur.
+-> controllers and schudeler cannot coordinate changes.
+-> existing pods continue running on worker nodes.
+-> if configuredd with multiple api server (high availability), another api server can continue serving request.
+ 
+
+
+
 - What happens if a worker node goes down?
 
 
