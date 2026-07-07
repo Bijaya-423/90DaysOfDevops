@@ -70,6 +70,7 @@ Verify:
 kubectl version --client
 ```
 
+
 ---
 
 ### Task 4: Set Up Your Local Cluster
@@ -212,3 +213,9 @@ Share on LinkedIn: "Started my Kubernetes journey today. Set up a local cluster,
 
 Happy Learning!
 **TrainWithShubham**
+
+
+
+
+
+
