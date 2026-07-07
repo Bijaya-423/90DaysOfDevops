@@ -20,3 +20,58 @@ Before touching a terminal, write down from memory:
 
 Do not look anything up yet. Write what you remember from the session, then verify against the official docs.
 
+### Task 2: Draw the Kubernetes Architecture
+From memory, draw or describe the Kubernetes architecture. Your diagram should include:
+
+**Control Plane (Master Node):**
+- API Server — the front door to the cluster, every command goes through it
+- etcd — the database that stores all cluster state
+- Scheduler — decides which node a new pod should run on
+- Controller Manager — watches the cluster and makes sure the desired state matches reality
+
+**Worker Node:**
+- kubelet — the agent on each node that talks to the API server and manages pods
+- kube-proxy — handles networking rules so pods can communicate
+- Container Runtime — the engine that actually runs containers (containerd, CRI-O)
+
+After drawing, verify your understanding:
+- What happens when you run `kubectl apply -f pod.yaml`? Trace the request through each component.
+- What happens if the API server goes down?
+- What happens if a worker node goes down?
+
+
+
+                    +----------------------+
+                    |      kubectl         |
+                    +----------+-----------+
+                               |
+                               v
+                    +----------------------+
+                    |      API Server      |
+                    +----------+-----------+
+                               |
+        +----------------------+----------------------+
+        |                      |                      |
+        v                      v                      v
++---------------+     +----------------+     +----------------------+
+|     etcd      |     |   Scheduler    |     | Controller Manager   |
+| Cluster State |     | Selects Node   |     | Maintains Desired    |
++---------------+     +----------------+     | State                |
+                                              +----------------------+
+                               |
+                               v
+                 -------------------------------------
+                 |                                   |
+                 v                                   v
+         +-------------------+              +-------------------+
+         |   Worker Node 1   |              |   Worker Node 2   |
+         +-------------------+              +-------------------+
+         | kubelet           |              | kubelet           |
+         | kube-proxy        |              | kube-proxy        |
+         | Container Runtime |              | Container Runtime |
+         | (containerd/CRI-O)|              | (containerd/CRI-O)|
+         |       Pods        |              |       Pods        |
+         +-------------------+              +-------------------+
+
+
+
