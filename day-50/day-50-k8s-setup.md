@@ -87,7 +87,14 @@ Examplpe :- contained
 CRI-O
 
 After drawing, verify your understanding:
-- What happens when you run `kubectl apply -f pod.yaml`? Trace the request through each component.
+- What happens when you run `kubectl apply -f pod.yaml`? Trace the 
+request through each component.
+===================================================================
+-> kubectl -> api server -> stores desired state in etcd -> scheduler notics pod has no node -> selects best worker node -> api server updted assignement -> kubelet on selectes worker node detectes new pod -> container runtime pulls images -> container starts -> kubelet reports pod status back -> api server updates etcd
+
+
+
+
 - What happens if the API server goes down?
 - What happens if a worker node goes down?
 
