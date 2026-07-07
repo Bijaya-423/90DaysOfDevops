@@ -25,9 +25,38 @@ From memory, draw or describe the Kubernetes architecture. Your diagram should i
 
 **Control Plane (Master Node):**
 - API Server — the front door to the cluster, every command goes through it
+========================================================================
+-> Entry point of the kubernetes cluster.
+-> receives all requests from kubectl.
+-> validates requests.
+-> Stores cluster information in etcd
+-> communicates with all other control plane components.
+
+
 - etcd — the database that stores all cluster state
+====================================================
+-> Distributed key-value database.
+-> Stores the complete cluster state.
+-> Stores Pods , Deployments , services , secrets, ConfigMpas, etc.
+-> Considered the single source of truth.
+
+
+
+
 - Scheduler — decides which node a new pod should run on
+=========================================================
+-> Watches for Pods without assigned nodes.
+-> Chooses the best worker node based on available CPU, memory , affinity, taints, tolerations, etc.
+Assigns the Pod to a worker node.
+
+
+
 - Controller Manager — watches the cluster and makes sure the desired state matches reality
+========================================================================
+-> Continuously watches the cluster.
+-> Ensures the actual state matches the desired state.
+-> Create or replace Pods if needed.
+-> handles ReplicaSet, Nodes , Jobs, Deployments and more.
 
 **Worker Node:**
 - kubelet — the agent on each node that talks to the API server and manages pods
