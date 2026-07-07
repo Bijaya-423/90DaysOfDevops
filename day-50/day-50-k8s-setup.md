@@ -80,10 +80,11 @@ Assigns the Pod to a worker node.
 
 
 
-
-
-
 - Container Runtime — the engine that actually runs containers (containerd, CRI-O)
+===============================================================
+-> Runs the actual containers.
+Examplpe :- contained
+CRI-O
 
 After drawing, verify your understanding:
 - What happens when you run `kubectl apply -f pod.yaml`? Trace the request through each component.
