@@ -60,7 +60,29 @@ Assigns the Pod to a worker node.
 
 **Worker Node:**
 - kubelet — the agent on each node that talks to the API server and manages pods
+====================================================================
+-> Runs on every worker node.
+-> Receives instructions from the Api server.
+-> creates and monitors pods.
+-> Reports node and pod status back to the API server.
+
+
+
+
+
+
 - kube-proxy — handles networking rules so pods can communicate
+==================================================================
+->  Manages networking .
+-> implements service networking.
+-> Enables communication between pods and services
+-> Performs load balancing.
+
+
+
+
+
+
 - Container Runtime — the engine that actually runs containers (containerd, CRI-O)
 
 After drawing, verify your understanding:
