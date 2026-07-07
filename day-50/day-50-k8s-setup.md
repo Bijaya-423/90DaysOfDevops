@@ -93,7 +93,18 @@ request through each component.
 -> kubectl -> api server -> stores desired state in etcd -> scheduler notics pod has no node -> selects best worker node -> api server updted assignement -> kubelet on selectes worker node detectes new pod -> container runtime pulls images -> container starts -> kubelet reports pod status back -> api server updates etcd
 
 
-
+steps
+=====
+i- kubectl apply -f pod.yml
+ii- request goes to the api server.
+iii- api server validagtes the yml.
+iv- Desired state is stored in etcd.
+v- schudeler selects a worker node.
+vi- kubelet on that node sees the assignment.
+vii- containers run time pulls the docker images
+viii- pods starts.
+ix- kubelet reports the pods status
+x- api server updates etcd with the current state.
 
 - What happens if the API server goes down?
 - What happens if a worker node goes down?
