@@ -131,6 +131,8 @@ kubectl run redis-pod --image=redis:latest
 kubectl get pods
 ```
 
+
+
 Now extract the YAML that Kubernetes generated:
 ```bash
 kubectl get pod redis-pod -o yaml
