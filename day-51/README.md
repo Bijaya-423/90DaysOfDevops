@@ -107,6 +107,7 @@ spec:
     command: ["sh", "-c", "echo Hello from BusyBox && sleep 3600"]
 ```
 
+
 Apply and verify:
 ```bash
 kubectl apply -f busybox-pod.yaml
