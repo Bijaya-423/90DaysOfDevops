@@ -41,3 +41,16 @@ NAME                       READY   STATUS    RESTARTS   AGE   IP            NODE
 web-app-5c44989c65-7tpk7   1/1     Running   0          27s   10.244.0.23   devops-cluster-control-plane   <none>           <none>
 web-app-5c44989c65-lf4xt   1/1     Running   0          27s   10.244.0.22   devops-cluster-control-plane   <none>           <none>
 web-app-5c44989c65-zzsqf   1/1     Running   0          27s   10.244.0.24   devops-cluster-control-plane   <none>           <none>
+
+
+
+after restart or delete
+------------------------
+ubuntu@ip-172-31-12-108:~/task$ kubectl delete pod web-app-5c44989c65-7tpk7
+pod "web-app-5c44989c65-7tpk7" deleted from default namespace
+ubuntu@ip-172-31-12-108:~/task$ kubectl get pods -o wide
+NAME                       READY   STATUS    RESTARTS   AGE     IP            NODE                           NOMINATED NODE   READINESS GATES
+web-app-5c44989c65-f7fjc   1/1     Running   0          27s     10.244.0.25   devops-cluster-control-plane   <none>           <none>
+web-app-5c44989c65-lf4xt   1/1     Running   0          3m57s   10.244.0.22   devops-cluster-control-plane   <none>           <none>
+web-app-5c44989c65-zzsqf   1/1     Running   0          3m57s   10.244.0.24   devops-cluster-control-plane   <none>           <none>
+
