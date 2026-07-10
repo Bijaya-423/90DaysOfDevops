@@ -181,7 +181,6 @@ Access the service:
 minikube service web-app-nodeport --url
 
 # If using Kind, get the node IP first
-kubectl get nodes -o wide
 # Then curl <node-internal-ip>:30080
 
 # If using Docker Desktop
