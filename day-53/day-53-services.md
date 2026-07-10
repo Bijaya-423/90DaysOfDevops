@@ -54,3 +54,6 @@ web-app-5c44989c65-f7fjc   1/1     Running   0          27s     10.244.0.25   de
 web-app-5c44989c65-lf4xt   1/1     Running   0          3m57s   10.244.0.22   devops-cluster-control-plane   <none>           <none>
 web-app-5c44989c65-zzsqf   1/1     Running   0          3m57s   10.244.0.24   devops-cluster-control-plane   <none>           <none>
 
+
+
+
