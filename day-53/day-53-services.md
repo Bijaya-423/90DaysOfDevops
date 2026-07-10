@@ -65,10 +65,3 @@ web-app-5c44989c65-zzsqf   1/1     Running   0          3m57s   10.244.0.24   de
 
 
 
-
-
-
-
-
-
-
