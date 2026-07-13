@@ -34,6 +34,7 @@ Write a simple Dockerfile for the web app. The app doesn't need to be complex â€
 
 ---
 
+
 ### Task 3: Restart Policies
 1. Add `restart: always` to your database service
 2. Manually kill the database container â€” does it come back?
@@ -84,64 +85,5 @@ Share your 3-service app stack running via Compose on LinkedIn.
 
 Happy Learning!
 **TrainWithShubham**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
