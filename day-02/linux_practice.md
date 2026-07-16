@@ -26,3 +26,5 @@ rm - remove the file
 rm -v - remove and show the file or folder name
 rm -rf - remove the filled file
 
+
+
