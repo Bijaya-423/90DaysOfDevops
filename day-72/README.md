@@ -10,7 +10,6 @@ Automate a complete deployment: install Docker, pull and run a containerized app
 ---
 
 
-
 ## Expected Output
 - A complete Ansible project with custom roles for Docker and Nginx
 - Docker containers running on managed nodes, deployed entirely through Ansible
