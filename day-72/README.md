@@ -1,6 +1,9 @@
 # Day 72 -- Ansible Project: Automate Docker and Nginx Deployment
 
 
+
+
+
 ## Task
 Five days of Ansible -- inventory, ad-hoc commands, playbooks, modules, handlers, variables, facts, conditionals, loops, roles, templates, Galaxy, and Vault. Today you put it all together and build what you would actually do on the job.
 
