@@ -8,6 +8,7 @@ You have built infrastructure with Terraform, configured servers with Ansible, a
 
 That is where observability comes in. Today you learn the three pillars of observability -- metrics, logs, and traces -- and set up Prometheus, the most widely used metrics collection tool in the DevOps ecosystem.
 
+
 ---
 
 ## Expected Output
