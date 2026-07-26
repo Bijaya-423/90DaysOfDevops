@@ -1,6 +1,7 @@
 # Day 73 -- Introduction to Observability and Prometheus
 
 
+
 ## Task
 You have built infrastructure with Terraform, configured servers with Ansible, and containerized applications with Docker. But once everything is running -- how do you know it is healthy? How do you find out why something broke at 3 AM?
 
