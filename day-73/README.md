@@ -10,8 +10,6 @@ That is where observability comes in. Today you learn the three pillars of obser
 ---
 
 
-
-
 ## Expected Output
 - Clear understanding of observability vs traditional monitoring
 - Prometheus running in a Docker container
