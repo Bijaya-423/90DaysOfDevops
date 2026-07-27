@@ -5,6 +5,7 @@ Ten days of Kubernetes — clusters, Pods, Deployments, Services, ConfigMaps, Se
 
 ---
 
+
 ## Expected Output
 
 
