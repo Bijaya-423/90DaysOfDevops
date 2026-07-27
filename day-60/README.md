@@ -11,6 +11,7 @@ Ten days of Kubernetes — clusters, Pods, Deployments, Services, ConfigMaps, Se
 
 
 
+
 - A complete WordPress + MySQL stack in a `capstone` namespace
 - Self-healing and data persistence verified
 - A markdown file: `day-60-capstone.md`
