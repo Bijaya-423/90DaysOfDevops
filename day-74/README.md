@@ -8,9 +8,6 @@ Today you add Node Exporter for host metrics, cAdvisor for container metrics, an
 ------
 
 
-
-
-
 ## Expected Output
 - Node Exporter running and scraped by Prometheus
 - cAdvisor running and scraped by Prometheus
