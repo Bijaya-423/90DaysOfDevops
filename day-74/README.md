@@ -18,6 +18,7 @@ Today you add Node Exporter for host metrics, cAdvisor for container metrics, an
 
 ---
 
+
 ## Challenge Tasks
 
 ### Task 1: Add Node Exporter for Host Metrics
