@@ -15,7 +15,6 @@ Today you add Node Exporter for host metrics, cAdvisor for container metrics, an
 - At least one custom Grafana dashboard with CPU, memory, and container panels
 - A markdown file: `day-74-exporters-grafana.md`
 
-
 ---
 
 ## Challenge Tasks
