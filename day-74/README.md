@@ -16,8 +16,6 @@ Today you add Node Exporter for host metrics, cAdvisor for container metrics, an
 - A markdown file: `day-74-exporters-grafana.md`
 
 
-
-
 ---
 
 
