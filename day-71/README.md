@@ -33,6 +33,7 @@ server {
     root /var/www/{{ app_name }};
     index index.html;
 
+
     location / {
         try_files $uri $uri/ =404;
     }
