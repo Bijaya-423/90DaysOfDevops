@@ -7,6 +7,7 @@ Metrics tell you _what_ is broken. Logs tell you _why_. Yesterday you built the 
 You will set up Grafana Loki (a log aggregation system built by the Grafana team) and Promtail (the agent that ships logs to Loki). By the end of today, your Grafana instance will show both metrics and logs side by side.
 
 
+
 ---
 
 ## Expected Output
