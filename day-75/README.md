@@ -9,9 +9,6 @@ You will set up Grafana Loki (a log aggregation system built by the Grafana team
 
 ---
 
-
-
-
 ## Expected Output
 - Loki running as a log storage backend
 - Promtail collecting Docker container logs and shipping them to Loki
