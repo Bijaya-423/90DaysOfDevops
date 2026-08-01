@@ -5,6 +5,7 @@ Four days of building -- Prometheus, Node Exporter, cAdvisor, Grafana, Loki, Pro
 
 You will clone the observability-for-devops reference repo, spin up the complete 8-service stack in one command, validate every data flow end to end, build a unified dashboard, and document the entire setup as if you were handing it off to a teammate.
 
+
 ---
 
 
