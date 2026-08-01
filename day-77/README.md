@@ -8,7 +8,6 @@ You will clone the observability-for-devops reference repo, spin up the complete
 ---
 
 
-
 ## Expected Output
 - The full observability stack running from the reference repository
 - All Prometheus targets UP and healthy
