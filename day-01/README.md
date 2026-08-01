@@ -4,6 +4,7 @@
 Today’s goal is to **set the foundation for your DevOps journey**.
 
 
+
 You will create a **90-day personal DevOps learning plan** that clearly defines:
 - What is your understanding of DevOps and Cloud Engineering?
 - Why you are starting learning DevOps & Cloud?
