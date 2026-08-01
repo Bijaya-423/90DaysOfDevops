@@ -9,7 +9,6 @@ You will create a **90-day personal DevOps learning plan** that clearly defines:
 - Where do you want to reach?
 - How you will stay consistent every single day
 
-
 - 
 
 This is not a generic plan.  
