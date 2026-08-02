@@ -7,7 +7,6 @@ By the end of today, you will have created real AWS resources using nothing but 
 
 ---
 
-
 ## Expected Output
 - Terraform installed and working on your machine
 - AWS CLI configured with valid credentials
