@@ -5,7 +5,6 @@ You have been deploying containers, writing CI/CD pipelines, and orchestrating w
 
 By the end of today, you will have created real AWS resources using nothing but a `.tf` file and a terminal.
 
-
 ---
 
 ## Expected Output
