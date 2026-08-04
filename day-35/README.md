@@ -5,6 +5,7 @@ Today's goal is to **build optimized images and share them with the world**.
 
 Multi-stage builds are how real teams ship small, secure images. Docker Hub is how you distribute them. Both are interview favourites.
 
+
 ---
 
 ## Expected Output
