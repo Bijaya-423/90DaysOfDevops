@@ -15,6 +15,7 @@ Multi-stage builds are how real teams ship small, secure images. Docker Hub is h
 
 ---
 
+
 ## Challenge Tasks
 
 ### Task 1: The Problem with Large Images
