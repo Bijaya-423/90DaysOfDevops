@@ -7,8 +7,6 @@ No tutorials. No hand-holding. Pick an app, write the Dockerfile, set up Compose
 
 ---
 
-
-
 ## Expected Output
 - A markdown file: `day-36-docker-project.md`
 - Complete project with Dockerfile, docker-compose.yml, and app code
