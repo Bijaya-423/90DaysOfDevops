@@ -17,6 +17,7 @@ No tutorials. No hand-holding. Pick an app, write the Dockerfile, set up Compose
 - Image pushed to Docker Hub
 
 
+
 --------------------
 
 ## Challenge Tasks
