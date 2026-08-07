@@ -12,10 +12,7 @@ No tutorials. No hand-holding. Pick an app, write the Dockerfile, set up Compose
 - Complete project with Dockerfile, docker-compose.yml, and app code
 - Image pushed to Docker Hub
 
----
-
-
-
+--------------------
 
 ## Challenge Tasks
 
