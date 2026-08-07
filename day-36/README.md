@@ -7,8 +7,6 @@ No tutorials. No hand-holding. Pick an app, write the Dockerfile, set up Compose
 
 -----------------
 
-
-
 ## Expected Output
 
 
