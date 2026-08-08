@@ -1,8 +1,4 @@
-
-
-name: Bijaya
-role: SDE-I
-experience_years: 1.5 Years
+name: Bijaya Kumar Jena
+role: Software Developer
+experience_years: 2
 learning: true
-
-
