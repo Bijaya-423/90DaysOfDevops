@@ -13,6 +13,7 @@ Take a **one-day pause** to consolidate everything from Days 29–36 so Docker a
 
 
 
+
 ## Self-Assessment Checklist
 Mark yourself honestly — **can do**, **shaky**, or **haven't done**:
 
