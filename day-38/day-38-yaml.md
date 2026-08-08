@@ -41,5 +41,10 @@ database:
   after applying the required database migrations
   and then listens for incoming requests
   on port 8000.
+# Block 1 - correct
+name: devops
+tools:
+  - docker
+  - kubernetes
 
 
