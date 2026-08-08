@@ -30,4 +30,16 @@ database:
       - user: admin
       - password: admin
 
+  startup_script: |
+  echo "Starting server..."
+  python manage.py migrate
+  python manage.py runserver 0.0.0.0:8000
+  echo "Server started"
+
+  startup_description: >
+  This server starts the Django application
+  after applying the required database migrations
+  and then listens for incoming requests
+  on port 8000.
+
 
