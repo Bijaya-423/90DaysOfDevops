@@ -18,3 +18,16 @@ tools:
   - Grafana
 hobbies — [Shell Scripting, Docker Scripting, Linux Command]
 
+
+server: 
+  - name: Production-server
+  - ip: 123.142.0.1 
+  - port: 8000
+database:
+  - host: localhost
+  - name: erp_db
+  - credentials
+      - user: admin
+      - password: admin
+
+
