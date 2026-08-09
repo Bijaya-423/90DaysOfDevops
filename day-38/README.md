@@ -10,12 +10,7 @@ You will:
 
 - Validate them
 
-
 ---
-
-
-
-
 
 ## Expected Output
 - A markdown file: `day-38-yaml.md`
