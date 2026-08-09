@@ -1,5 +1,6 @@
 # Day 38 – YAML Basics
 
+
 ## Task
 Before writing a single CI/CD pipeline, you need to get comfortable with **YAML** — the language every pipeline is written in.
 
