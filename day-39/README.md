@@ -9,7 +9,6 @@ Today is a research and diagram day — no pipelines yet. Get the concepts right
 ---
 
 
-
 ## Expected Output
 
 
