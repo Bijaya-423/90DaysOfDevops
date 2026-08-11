@@ -37,6 +37,7 @@ Write one real-world example for each.
 
 ---
 
+
 ### Task 3: Pipeline Anatomy
 A pipeline has these parts — write what each one does:
 - **Trigger** — what starts the pipeline
