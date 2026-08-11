@@ -3,6 +3,7 @@
 ## Task
 Before writing a single pipeline, understand **why CI/CD exists** and what it actually does.
 
+
 Today is a research and diagram day — no pipelines yet. Get the concepts right first.
 
 ---
