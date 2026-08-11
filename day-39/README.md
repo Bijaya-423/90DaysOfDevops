@@ -14,6 +14,7 @@ Today is a research and diagram day — no pipelines yet. Get the concepts right
 - A pipeline diagram (hand-drawn or text-based)
 
 
+
 ---
 
 
