@@ -15,6 +15,7 @@ Your pipeline runs on push. Today you learn **every way to trigger a workflow** 
 ---
 
 
+
 ## Challenge Tasks
 
 ### Task 1: Trigger on Pull Request
