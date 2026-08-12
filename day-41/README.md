@@ -10,8 +10,7 @@ Your pipeline runs on push. Today you learn **every way to trigger a workflow** 
 ## Expected Output
 - New workflow files in your `github-actions-practice` repo
 - A markdown file: `day-41-triggers.md`
-- 
-
+  
 ---
 
 
