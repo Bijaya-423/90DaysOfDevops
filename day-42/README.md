@@ -5,6 +5,7 @@ Every job needs a machine to run on. Today you understand **runners** — GitHub
 
 ---
 
+
 ## Expected Output
 - A self-hosted runner registered to your GitHub repo
 - A workflow that runs a job on your self-hosted runner
