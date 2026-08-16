@@ -10,7 +10,6 @@ Today your pipeline starts doing **real work** — storing sensitive values secu
 - A markdown file: `day-44-secrets-artifacts.md`
 - A passing test run in CI
 
-
 ---
 
 ## Challenge Tasks
