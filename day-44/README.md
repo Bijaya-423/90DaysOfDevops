@@ -14,6 +14,7 @@ Today your pipeline starts doing **real work** — storing sensitive values secu
 
 ## Challenge Tasks
 
+
 ### Task 1: GitHub Secrets
 1. Go to your repo → Settings → Secrets and Variables → Actions
 2. Create a secret called `MY_SECRET_MESSAGE`
