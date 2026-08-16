@@ -11,8 +11,6 @@ Today your pipeline starts doing **real work** — storing sensitive values secu
 - A passing test run in CI
 
 
-
-
 ---
 
 
