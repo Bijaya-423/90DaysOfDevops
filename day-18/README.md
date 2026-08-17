@@ -13,6 +13,7 @@ You will:
 ---
 
 ## Expected Output
+
 - A markdown file: `day-18-scripting.md`
 - All scripts you write during the tasks
 
