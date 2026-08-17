@@ -9,6 +9,7 @@ You will:
 - Work with **return values** and **local variables**
 - Build an intermediate script
 
+
 ---
 
 ## Expected Output
