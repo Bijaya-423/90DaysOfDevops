@@ -14,6 +14,7 @@ Today your pipeline starts doing **real work** — storing sensitive values secu
 ---
 
 
+
 ## Challenge Tasks
 
 
