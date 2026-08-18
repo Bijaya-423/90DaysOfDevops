@@ -8,8 +8,10 @@ Today your pipeline starts doing **real work** — storing sensitive values secu
 ## Expected Output
 
 - New workflow files in your `github-actions-practice` repo
+- 
 - A markdown file: `day-44-secrets-artifacts.md`
 - A passing test run in CI
+
 
 ---
 
