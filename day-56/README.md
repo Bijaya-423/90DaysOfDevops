@@ -13,7 +13,6 @@ Deployments work great for stateless apps, but what about databases? You need st
 
 ---
 
-\
 
 ## Challenge Tasks
 
