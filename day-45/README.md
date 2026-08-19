@@ -15,8 +15,6 @@ This is exactly what happens in real production pipelines.
 - A markdown file: `day-45-docker-cicd.md`
 
 
-
-
 ---
 
 ## Challenge Tasks
