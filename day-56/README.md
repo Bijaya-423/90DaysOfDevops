@@ -11,6 +11,7 @@ Deployments work great for stateless apps, but what about databases? You need st
 - Data persistence verified across pod deletion
 - A markdown file: `day-56-statefulsets.md`
 
+
 ---
 
 
