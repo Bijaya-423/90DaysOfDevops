@@ -8,7 +8,6 @@ This is exactly what happens in real production pipelines.
 ---
 
 
-
 ## Expected Output
 - A complete workflow: `.github/workflows/docker-publish.yml`
 - Your Docker image live on Docker Hub
