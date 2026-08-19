@@ -3,7 +3,7 @@
 ## Task
 Deployments work great for stateless apps, but what about databases? You need stable pod names, ordered startup, and persistent storage per replica. Today you learn StatefulSets — the workload designed for stateful applications like MySQL, PostgreSQL, and Kafka.
 
----
+-----------------------------------------------------
 
 ## Expected Output
 - A StatefulSet with 3 replicas and stable pod names
@@ -12,9 +12,7 @@ Deployments work great for stateless apps, but what about databases? You need st
 - A markdown file: `day-56-statefulsets.md`
 
 
----\
-
-
+------------------------------------------------------
 
 
 ## Challenge Tasks
