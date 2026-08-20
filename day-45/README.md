@@ -22,6 +22,7 @@ This is exactly what happens in real production pipelines.
 
 
 
+
 ## Challenge Tasks
 
 ### Task 1: Prepare
