@@ -13,6 +13,7 @@ This is exactly what happens in real production pipelines.
 - Your Docker image live on Docker Hub
 - A status badge in your repo README
 - A markdown file: `day-45-docker-cicd.md`
+
 - 
 
 ----
