@@ -14,6 +14,7 @@ This is concept-focused — research, understand, and document in your own words
 ---
 
 
+
 ## Expected Output
 - A markdown file: `day-15-networking-concepts.md`
 
