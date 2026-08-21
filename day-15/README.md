@@ -28,6 +28,8 @@ This is concept-focused — research, understand, and document in your own words
 
 ---
 
+
+
 ### Task 2: IP Addressing
 1. What is an IPv4 address? How is it structured? (e.g., `192.168.1.10`)
 2. Difference between **public** and **private** IPs — give one example of each
