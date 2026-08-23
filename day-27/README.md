@@ -15,6 +15,7 @@ This is not a coding day — it's a **branding day**. Treat it seriously.
 
 ---
 
+
 ## Challenge Tasks
 
 ### Task 1: Audit Your Current GitHub Profile
