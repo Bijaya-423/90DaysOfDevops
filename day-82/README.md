@@ -14,6 +14,7 @@ Reference: https://github.com/TrainWithShubham/AI-BankApp-DevOps (branch `feat/g
 ## Expected Output
 
 
+
 - Envoy Gateway installed on EKS
 - Gateway API resources (GatewayClass, Gateway, HTTPRoute) configured
 - cert-manager installed with Let's Encrypt ClusterIssuer
