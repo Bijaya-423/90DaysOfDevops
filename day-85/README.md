@@ -9,6 +9,7 @@ Reference: https://github.com/TrainWithShubham/AI-BankApp-DevOps (branch: `feat/
 
 ---
 
+
 ## Expected Output
 - Understanding of sync waves and resource ordering in ArgoCD
 - Manual sync with preview and selective sync demonstrated
