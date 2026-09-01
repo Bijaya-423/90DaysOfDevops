@@ -81,6 +81,7 @@ Check the size before and after.
 
 ---
 
+
 ## Learn in Public
 Share your before/after image sizes on LinkedIn — the difference is always impressive.
 
