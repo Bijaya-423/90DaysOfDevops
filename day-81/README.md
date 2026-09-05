@@ -17,6 +17,7 @@ Amazon EKS (Elastic Kubernetes Service) is AWS's managed Kubernetes offering. Th
 
 ---
 
+
 ## Challenge Tasks
 
 ### Task 1: Understand EKS Architecture
