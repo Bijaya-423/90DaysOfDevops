@@ -12,6 +12,7 @@ Amazon EKS (Elastic Kubernetes Service) is AWS's managed Kubernetes offering. Th
 
 
 
+
 ## Expected Output
 - Understanding of EKS architecture and its components
 - The AI-BankApp's Terraform configs reviewed and understood
