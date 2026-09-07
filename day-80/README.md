@@ -14,11 +14,6 @@ Reference: https://github.com/TrainWithShubham/AI-BankApp-DevOps (branch: `feat/
 - Understanding of how Helm fits into the AI-BankApp's GitOps pipeline
 - A markdown file: `day-80-helm-project.md`
 
-
-
-
-
-
 ---
 
 
