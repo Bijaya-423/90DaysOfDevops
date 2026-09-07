@@ -5,7 +5,6 @@ Two days of Helm -- chart basics and a custom chart for the AI-BankApp. Today yo
 
 Reference: https://github.com/TrainWithShubham/AI-BankApp-DevOps (branch: `feat/gitops`)
 
-
 ---
 
 ## Expected Output
