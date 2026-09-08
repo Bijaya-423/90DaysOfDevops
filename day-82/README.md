@@ -7,6 +7,7 @@ Today you set up the Gateway API, configure TLS with cert-manager, understand EB
 
 Reference: https://github.com/TrainWithShubham/AI-BankApp-DevOps (branch `feat/gitops`) -- `k8s/gateway.yml`, `k8s/cert-manager.yml`, `k8s/pv.yml`, `k8s/pvc.yml`
 
+
 ---
 
 
