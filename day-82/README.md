@@ -114,6 +114,7 @@ spec:
   controllerName: gateway.envoyproxy.io/gatewayclass-controller
 ```
 
+
 **2. Gateway** -- creates the actual load balancer with listeners:
 ```yaml
 apiVersion: gateway.networking.k8s.io/v1
