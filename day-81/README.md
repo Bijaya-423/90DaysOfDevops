@@ -13,9 +13,7 @@ Amazon EKS (Elastic Kubernetes Service) is AWS's managed Kubernetes offering. Th
 - A running EKS cluster provisioned via Terraform
 - kubectl connected to the EKS cluster
 - A markdown file: `day-81-eks-intro.md`
-- 
-
-
+  
 ---
 
 ## Challenge Tasks
