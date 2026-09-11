@@ -18,11 +18,6 @@ Reference: https://github.com/TrainWithShubham/AI-BankApp-DevOps (branch `feat/g
 - A markdown file: `day-82-eks-networking-storage.md`
 
 
-
-
-
-
-
 ---
 
 ## Challenge Tasks
