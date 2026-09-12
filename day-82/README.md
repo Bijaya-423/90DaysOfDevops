@@ -19,6 +19,7 @@ Reference: https://github.com/TrainWithShubham/AI-BankApp-DevOps (branch `feat/g
 
 ---
 
+
 ## Challenge Tasks
 
 ### Task 1: Understand Gateway API vs Ingress
