@@ -18,6 +18,7 @@ Reference: https://github.com/TrainWithShubham/AI-BankApp-DevOps (branch `feat/g
 - Understanding of session persistence for stateful web apps
 - A markdown file: `day-82-eks-networking-storage.md`
 
+
 ---
 
 ## Challenge Tasks
