@@ -19,7 +19,6 @@ The AI-BankApp project (https://github.com/TrainWithShubham/AI-BankApp-DevOps, b
 ---
 
 
-
 ## Challenge Tasks
 
 ### Task 1: Understand GitOps
