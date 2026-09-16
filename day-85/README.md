@@ -9,8 +9,6 @@ Reference: https://github.com/TrainWithShubham/AI-BankApp-DevOps (branch: `feat/
 
 ---
 
-
-
 ## Expected Output
 - Understanding of sync waves and resource ordering in ArgoCD
 - Manual sync with preview and selective sync demonstrated
@@ -18,7 +16,6 @@ Reference: https://github.com/TrainWithShubham/AI-BankApp-DevOps (branch: `feat/
 - App of Apps pattern implemented for multi-app management
 - ArgoCD notifications configured
 - A markdown file: `day-85-argocd-deep-dive.md`
-
 
 ---
 
