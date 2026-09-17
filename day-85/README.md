@@ -24,6 +24,7 @@ Reference: https://github.com/TrainWithShubham/AI-BankApp-DevOps (branch: `feat/
 ### Task 1: Understand Sync Strategies
 ArgoCD offers multiple ways to sync:
 
+
 **Automated sync** (what the AI-BankApp uses):
 ```yaml
 syncPolicy:
