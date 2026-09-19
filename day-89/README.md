@@ -26,6 +26,7 @@ KubeHealer repo: https://github.com/TrainWithShubham/kubehealer
 ### Task 1: Understand AIOps and Production Guardrails (Module 4)
 Before building production agents, understand the rules:
 
+
 1. **What is AIOps?**
    - Using AI to automate IT operations: monitoring, diagnosis, remediation
    - Not replacing humans -- augmenting them with intelligent automation
