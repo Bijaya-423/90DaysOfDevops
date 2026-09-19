@@ -21,7 +21,6 @@ KubeHealer repo: https://github.com/TrainWithShubham/kubehealer
 
 ---
 
-
 ## Challenge Tasks
 
 ### Task 1: Understand AIOps and Production Guardrails (Module 4)
