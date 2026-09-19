@@ -19,7 +19,6 @@ KubeHealer repo: https://github.com/TrainWithShubham/kubehealer
 - Understanding of when to use AI agents vs traditional automation
 - A markdown file: `day-89-kubehealer-aiops.md`
 
-
 ---
 
 ## Challenge Tasks
