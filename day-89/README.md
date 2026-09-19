@@ -14,6 +14,7 @@ KubeHealer repo: https://github.com/TrainWithShubham/kubehealer
 
 
 
+
 - Understanding of AIOps principles and production guardrails
 - KubeHealer running with Temporal + Claude
 - Multiple broken apps deployed, diagnosed, and fixed by the agent
