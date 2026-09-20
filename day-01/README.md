@@ -15,7 +15,6 @@ This is your **career execution blueprint** for the next 90 days.
 
 ---
 
-
 ## Expected Output
 By the end of today, you should have:
 
