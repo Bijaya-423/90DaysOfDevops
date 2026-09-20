@@ -9,6 +9,7 @@ The AI-BankApp project (https://github.com/TrainWithShubham/AI-BankApp-DevOps, b
 
 ---
 
+
 ## Expected Output
 - Understanding of GitOps principles and how they differ from traditional CI/CD
 - ArgoCD running on your EKS cluster (installed by Terraform on Day 81)
