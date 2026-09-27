@@ -17,6 +17,7 @@ Reference: https://github.com/TrainWithShubham/agentic-ai-for-devops
 - Understanding of the ReAct pattern (Reason, Act, Observe)
 - A markdown file: `day-87-agentic-ai-intro.md`
 
+
 ---
 
 ## Challenge Tasks
