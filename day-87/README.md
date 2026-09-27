@@ -9,7 +9,6 @@ Reference: https://github.com/TrainWithShubham/agentic-ai-for-devops
 
 ---
 
-
 ## Expected Output
 - Ollama running locally with the Gemma 4 model
 - Python environment with LangChain and agent dependencies
