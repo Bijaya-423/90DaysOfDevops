@@ -1,6 +1,5 @@
 # Day 88 -- Multi-Tool Agents, MCP, and CI/CD Analyzer
 
-
 ## Task
 Yesterday you built a Docker-only agent. Today you extend it to handle both Docker AND Kubernetes, learn the Model Context Protocol (MCP) -- the emerging standard for connecting AI to tools -- and build a CI/CD Failure Analyzer that diagnoses broken GitHub Actions pipelines.
 
