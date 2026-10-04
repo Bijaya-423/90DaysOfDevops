@@ -18,6 +18,7 @@ You will set up Grafana Loki (a log aggregation system built by the Grafana team
 - A markdown file: `day-75-loki-promtail.md`
 
 
+
 ---
 
 ## Challenge Tasks
