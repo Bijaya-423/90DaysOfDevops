@@ -17,6 +17,7 @@ You will set up Grafana Loki (a log aggregation system built by the Grafana team
 
 ---
 
+
 ## Challenge Tasks
 
 ### Task 1: Understand the Logging Pipeline
