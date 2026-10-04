@@ -15,8 +15,6 @@ You will set up Grafana Loki (a log aggregation system built by the Grafana team
 - LogQL queries running in Grafana Explore
 - A markdown file: `day-75-loki-promtail.md`
 
-
-
 ---
 
 ## Challenge Tasks
