@@ -23,6 +23,7 @@ By the end of today, you should have:
 
 or
 
+
 - A hand written plan for the next 90 Days (Recommended)
 
 
