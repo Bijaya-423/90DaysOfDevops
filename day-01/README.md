@@ -21,10 +21,6 @@ By the end of today, you should have:
 - A markdown file named:  
   `learning-plan.md`
 
-
-
-
-
 or
 
 
