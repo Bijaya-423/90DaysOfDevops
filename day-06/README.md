@@ -13,6 +13,7 @@ You will create a small text file and practice:
 
 Keep it basic and repeatable.
 
+
 ---
 
 ## Expected Output
