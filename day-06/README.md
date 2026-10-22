@@ -15,7 +15,6 @@ Keep it basic and repeatable.
 
 ---
 
-
 ## Expected Output
 By the end of today, you should have:
 
